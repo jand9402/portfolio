@@ -37,7 +37,7 @@ return(
                              <div className="row rwo_title">
                                 <div className="col col_title">
                                     <h1 className="title_home">¡BIENVENIDO!</h1>
-                                    <h5 className="sub_home1">Bienvenido a mi pagina persona</h5>
+                                    <h5 className="sub_home1">Bienvenido a mi pagina personal</h5>
                                     <h5 className="sub_home2">Aquí podrás conocer un poco mas sobre mis proyectos, habilidades, vida laboral y vida personal</h5>
                                 </div>
                              </div>
