@@ -1,0 +1,28 @@
+.list-group{
+    background-color: transparent !important;
+}
+
+.list-group-item{
+    background-color: transparent;
+    border: solid 2px black;
+    color: white;
+    font-size: xx-large;
+}
+
+.logo_skills{
+    max-height: 80px;
+}
+
+.skills_text{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.tech_list{
+    margin-bottom: 50px;
+}
+
+.skilss_title{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

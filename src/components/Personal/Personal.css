@@ -1,0 +1,14 @@
+.title_personal{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text_personal{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: large;
+}

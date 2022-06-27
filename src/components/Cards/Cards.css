@@ -1,0 +1,41 @@
+.LinkCards{
+    text-decoration: none;
+}
+
+.emojis{
+    font-size: 1000%;
+}
+
+.emojis1{
+    font-size: 948%;
+}
+
+.col_cards1{
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: transparent;
+    border: solid 3px rgb(255, 255, 255);
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    cursor: hand;
+    border-color: #47c7fc;
+    background-color: #47c7fc;
+    box-shadow: 0px 0px 29px 6px #47c7fc;
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
+}
+
+.card-title{
+    color: rgb(255, 255, 255);
+}
+
+
+

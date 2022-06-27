@@ -1,0 +1,23 @@
+.proyects_texts{
+    text-align: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+}
+
+.card_proyects{
+    padding: 0 !important;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.card-img-top{
+    padding: 0 !important;
+    height: 30% !important;
+}
+
+.card-text{
+    color: white;
+}
