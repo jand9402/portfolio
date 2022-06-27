@@ -19,7 +19,7 @@ function Work(){
 
 return(
     
-    <div className="contai">
+    <div className="contai contai2">
 
 {
                      language === "spanish" ?
