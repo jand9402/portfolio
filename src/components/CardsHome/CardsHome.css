@@ -1,0 +1,100 @@
+.LinkCards{
+    text-decoration: none;
+}
+
+.emojis{
+    font-size: 1000%;
+}
+
+.emojis1{
+    font-size: 948%;
+}
+
+.col_cards1{
+    margin-bottom: 50px;
+}
+
+.all_cards{
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    height: 300px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card_img1{
+    background-image: url("../../assets/yo2.png");
+}
+
+.card_img2{
+    background-image: url("../../assets/skills1.png");
+}
+
+.card_img3{
+    background-image: url("../../assets/portfolio1.png");
+}
+
+.all_cards:hover{
+    transform:scale(1.03);
+    cursor: hand;
+    box-shadow: 0px 0px 29px 6px #1f169f;
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
+}
+
+.card-title{
+    color: rgb(255, 255, 255);
+}
+
+.contenedor1{
+    background-color: #969696
+}
+/* card_img1 */
+
+.btn-primary{
+    background-color: #1f169f;
+    border: none;
+}
+
+.btn-primary:hover{
+    box-shadow: 0px 0px 29px 6px #000000;
+    background-color: #1f169f;
+}
+
+.title_cardsHome{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo_ver_tatuadores{
+    color: white;
+    text-align: center;
+}
+
+.parrafo_ver_tatuadores{
+    color: transparent;
+    text-align: center;
+    font-size: 120%;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+.parrafo_ver_tatuadores:hover{
+    color: rgb(196, 196, 196);
+}
+@media (max-width: 450px) {
+  
+  }
+
+

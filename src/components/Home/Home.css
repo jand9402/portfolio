@@ -1,159 +1,163 @@
-.contai{
-    background-image: linear-gradient(to right top, #ff8000, #d85c27, #aa402f, #782c2d, #461c22, #42212b, #3d2531, #382a35, #564963, #676e98, #6499ce, #47c7fc);
+.text_banner1{
+    color: white;
+    padding-top: 10%;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+.sub_banner1{
+    color: white;
 }
 
-.contenedor{
-    display: flex;
-    margin-top: 5%;
+.btn_banner1{
+    border: none;
+    background-color: #1f169f;
+    color: white;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
 }
 
-.contenedor .switch{
-    height: 40px;
-    background-color: rgb(192, 192, 192);
-    padding: 0 1.5rem;
-    border-radius: 0.8rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.btn_banner1:hover{
+    border-color: #1f169f;
+    background-color: #000000;
+    box-shadow: 0px 0px 29px 6px #1f169f;
 }
 
-.contenedor .switch .input{
-    display: none;
+.carousel-item{
+    
+    background-image: url("../../assets/fondotest2.png");
+    height: 400px;
+    text-align: center;
 }
 
-.contenedor .switch .rail{
-    position: relative;
-    width: 42px;
-    height: 15px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3rem;
-    -webkit-border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -ms-border-radius: 3rem;
-    -o-border-radius: 3rem;
+
+.contenedorVideoHome{
+    background-color: black;
 }
 
-.contenedor .switch .rail .circle{
-    display: block;
-    width: 16px;
-    height: 16px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    transition: transform 0.4s;
+.title_video_home{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
 }
 
-.contenedor .switch .indicator{
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    border-radius: 50%;
-    margin-left: 1.5rem;
-    transition: 0.4s;
-}
-
-.contenedor .switch .input:checked ~ .rail .circle{
-    transform: translate(28px, -50%);
-    -webkit-transform: translate(28px, -50%);
-    -moz-transform: translate(28px, -50%);
-    -ms-transform: translate(28px, -50%);
-    -o-transform: translate(28px, -50%);
-}
-
-.contenedor .switch .input:checked ~ .indicator{
-    background-color: #11ff61;
-}
-
-.language_text{
-    margin-top: 1%;
+.text_video_home{
     color: white;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.title_home{
+
+.video_home{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+.contenedor2{
+    /* background-image: url(../../../assets/imagenbotones.png); */
+}
+
+.title_botones{
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.sub_home1{
+.div_botones{
+    text-align: center;
+}
+
+.tresbotones{
+    border: none;
+    background-color: #1f169f;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 3%;
-}
-
-.sub_home2{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.btn_language{
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: all 500ms ease;
-    border: 2px solid rgb(255, 255, 255);
-    color: white;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-}
-
-.btn1{
-    background-color: transparent;
-    padding: 0.5%;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-}
-
-.btn_language:hover{
-    border-color: #47c7fc;
-    background-color: #47c7fc;
-    box-shadow: 0px 0px 29px 6px #47c7fc;
-    color: black;
-}
-
-.btn2{
-    color:  rgb(255, 255, 255);
-    border: solid 3px rgb(255, 255, 255);
-    background-color: transparent;
-    padding: 0.5%;
+    padding: 1%;
+    width: 30%;
+    height: 60px;
     border-radius: 10px;
-    width: 50%;
-    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    font-size: large;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
 }
 
-.btn_contact{
-    margin-top: 20px;
-    background-color: transparent;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+.tresbotonesUltimo{
+    margin-bottom: 50px;
 }
 
-.btn_contact:hover{
-    border-color: #47c7fc;
-    background-color: #47c7fc;
-    box-shadow: 0px 0px 29px 6px #47c7fc;
-    color: black;
+.tresbotones:hover{
+    border-color: #1f169f;
+    background-color: #000000;
+    box-shadow: 0px 0px 29px 6px #1f169f;
 }
+
+.img_nosotros{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.title_nosotros_home{
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+
+.text_nosotros_home{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+
+@media (max-width: 450px) {
+    .carousel-item {
+      height: 200px;
+    }
+    .text_banner1{
+        color: white;
+        padding-top: 5%;
+    }
+    
+    .sub_banner1{
+        color: white;
+    }
+    
+    .btn_banner1{
+        border: none;
+        background-color: #9F1663;
+        color: white;
+        padding: 2%;
+        border-radius: 15px;
+        margin-top: 10px;
+        font-size: small;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
+    .btn_banner1:hover{
+        border-color: #1f169f;
+        background-color: #000000;
+        box-shadow: 0px 0px 29px 6px #1f169f;
+    }
+    .tresbotones{
+        border: none;
+        background-color: #1f169f;
+        color: white;
+        padding: 1%;
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: large;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+  }
