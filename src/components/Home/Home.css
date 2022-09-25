@@ -68,32 +68,7 @@
     text-align: center;
 }
 
-.tresbotones{
-    border: none;
-    background-color: #1f169f;
-    color: white;
-    padding: 1%;
-    width: 30%;
-    height: 60px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 3%;
-    font-size: large;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
 
-.tresbotonesUltimo{
-    margin-bottom: 50px;
-}
-
-.tresbotones:hover{
-    border-color: #1f169f;
-    background-color: #000000;
-    box-shadow: 0px 0px 29px 6px #1f169f;
-}
 
 .img_nosotros{
     width: 100%;
@@ -128,10 +103,10 @@
     
     .btn_banner1{
         border: none;
-        background-color: #9F1663;
+        background-color: #1f169f;
         color: white;
         padding: 2%;
-        border-radius: 15px;
+        border-radius: 10px !important;
         margin-top: 10px;
         font-size: small;
         -webkit-border-radius: 15px;
@@ -145,19 +120,6 @@
         background-color: #000000;
         box-shadow: 0px 0px 29px 6px #1f169f;
     }
-    .tresbotones{
-        border: none;
-        background-color: #1f169f;
-        color: white;
-        padding: 1%;
-        width: 50%;
-        border-radius: 10px;
-        margin-top: 10px;
-        font-size: large;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
+    
     
   }
