@@ -1,1 +1,21 @@
+.contai2{
+    background-color: #969696
+}
 
+.card{
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    margin-bottom: 30px;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    cursor: hand;
+    box-shadow: 0px 0px 29px 6px #1f169f;
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
+}

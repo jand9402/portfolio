@@ -21,16 +21,13 @@ export default function Contact() {
                      <div className="row">
                          <div className="col">
                              <div className="contenedor">
-                             <Link to="/">
-                             <button className="btn3 btn_volver">Volver</button>
-                             </Link>
+                            
                              </div>
                          </div>
                      </div>
-                     <h1 className="title_personal">Contacto</h1>
                      <div className="col-lg-4 mt-4 col_cards">
                    
-    <a href="https://wa.link/18z6ue" target="_blank">
+    <a href="https://wa.link/u5kftc" target="_blank">
     <div class="card">
   <div class="card-body">
     <img className="card-img-top" src={whatsapp} alt="whatsapp"/>
@@ -65,13 +62,9 @@ export default function Contact() {
                 <div className="row">
                          <div className="col">
                              <div className="contenedor">
-                             <Link to="/">
-                             <button className="btn3 btn_volver2">Go back</button>
-                             </Link>
                              </div>
                          </div>
                      </div>
-                     <h1 className="title_personal">Contact</h1>
                      <div className="col-lg-4 mt-4 col_cards">
                    
     <a href="https://wa.link/18z6ue" target="_blank">

@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
+import Proyects from './components/Proyects/Proyects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/skills" exact element={<Skills/>}/>
         <Route path="/about" exact element={<About/>}/>
         <Route path="/contact" exact element={<Contact/>}/>
+        <Route path='/proyects' exact element={<Proyects/>}/>
       </Routes>
     </div>
   );

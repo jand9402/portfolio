@@ -22,18 +22,13 @@ function Skills(){
 
 return(
     
-    <div className="contai">
+    <div className="contaiSkills">
 
 {
                      language === "spanish" ?
                      <div className="container">
                         <div className="row">
                          <div className="col">
-                             <div className="contenedor">
-                             <Link to="/">
-                             <button className="btn3 btn_volver">Volver</button>
-                             </Link>
-                             </div>
                          </div>
                      </div>
                      <div className="row row_skills">
@@ -56,12 +51,12 @@ return(
                             <h1 className="skilss_title">Habilidades blandas</h1>
                             <div className="tech_list">
                             <ul className="list-group">
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill"/><h2 className="skills_text">Trabajo en equipo</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill "/><h2 className="skills_text">Resolución de conflictos</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Responsabilidad</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Empatía </h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill"/><h2 className="skills_text">Resolución de problemas</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill "/><h2 className="skills_text">Trabajo en equipo</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Comunicación clara</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Gestión del tiempo </h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Adaptación al cambio</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt="soft skill "/><h2 className="skills_text">Comunicación asertiva</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt="soft skill "/><h2 className="skills_text">Empatia</h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Actitud positiva</h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Resiliencia</h2></li>
                                 </ul>
@@ -74,11 +69,7 @@ return(
                    <div className="container">
                         <div className="row">
                          <div className="col">
-                             <div className="contenedor">
-                             <Link to="/">
-                             <button className="btn3 btn_volver2">Go Back</button>
-                             </Link>
-                             </div>
+                             
                          </div>
                      </div>
                      <div className="row row_skills">
@@ -101,12 +92,12 @@ return(
                             <h1 className="skilss_title">Soft skills</h1>
                             <div className="tech_list">
                             <ul className="list-group">
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill"/><h2 className="skills_text">Teamwork</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill "/><h2 className="skills_text">Conflict resolution</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Responsibility</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Empathy </h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill"/><h2 className="skills_text">Problem solving</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt="soft skill "/><h2 className="skills_text">Team work</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Assertive communication</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={star} alt=" soft skill"/><h2 className="skills_text">Time management </h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Adaptation to change</h2></li>
-                                    <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt="soft skill "/><h2 className="skills_text">Assertive communication</h2></li>
+                                    <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt="soft skill "/><h2 className="skills_text">Empathy</h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Positive attitude</h2></li>
                                     <li className="list-group-item d-flex"><img className="logo_skills" src={vacio} alt=" soft skill"/><h2 className="skills_text">Resilience</h2></li>
                                 </ul>

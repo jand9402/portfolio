@@ -47,7 +47,7 @@ return(
                              </Link>
                            </li>
                            <li className="nav-item">
-                             <Link className="Links" to="/portfolio">
+                             <Link className="Links" to="/proyects">
                              <a className="nav-link active" aria-current="page">Portfolio</a>
                              </Link>
                            </li>
@@ -91,7 +91,7 @@ return(
                            </Link>
                          </li>
                          <li className="nav-item">
-                           <Link className="Links" to="/portfolio">
+                           <Link className="Links" to="/proyects">
                            <a className="nav-link active" aria-current="page">Portfolio</a>
                            </Link>
                          </li>
